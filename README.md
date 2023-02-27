@@ -1,5 +1,5 @@
 # BrainAge
-Approach used by State++ to come in 2nd place during NeuroTechX's Brain Age Prediction Challenge 2022 https://codalab.lisn.upsaclay.fr/competitions/8336
+Approach used by State++ to come in 2nd place during NeuroTechX's Brain Age Prediction Challenge 2022: https://codalab.lisn.upsaclay.fr/competitions/8336
 
 ## Overview
 **The approach consisted of feature generation + auto-pytorch model building.**
