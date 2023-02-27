@@ -25,7 +25,3 @@ Engemann, D. A., Mellot, A., Höchenberger, R., Banville, H., Sabbagh, D., Gemei
 Langer, N., Plomecka, M. B., Tröndle, M., Negi, A., Popov, T., Milham, M., & Haufe, S. (2022). A benchmark for prediction of psychiatric multimorbidity from resting EEG data in a large pediatric sample. *NeuroImage*, 119348.
 
 Schirrmeister, R. T., Springenberg, J. T., Fiederer, L. D. J., Glasstetter, M., Eggensperger, K., Tangermann, M., ... & Ball, T. (2017). Deep learning with convolutional neural networks for EEG decoding and visualization. *Human Brain Mapping*, 38(11), 5391-5420.
-
-
-## Usage
-We worked on the competition in Python Jupyter notebooks on Google Colab servers, examples of which are available for viewing in this repository.
