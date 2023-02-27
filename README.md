@@ -2,7 +2,7 @@
 Approach used during NeuroTechX's Brain Age Prediction Challenge 2022 https://codalab.lisn.upsaclay.fr/competitions/8336
 
 ## Overview
-**The approach we took consisted of feature generation + auto-pytorch model building.**
+**The approach consisted of feature generation + auto-pytorch model building.**
 
 Features used included:
 
