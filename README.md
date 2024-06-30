@@ -9,6 +9,7 @@ Our approach consisted of three main components:
 2) constructing a number of tabular feature sets from the timeseries data and feeding some of these sets through a moderately regulaized ridge regression
 3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to an autoML software for final prediction generation.
 
+![Simple Visual](simpleVisual.png)
 
 ## Background
 Our 1-dimensional conv net was based on the Deep4Net architecture (Schirrmeister et al., 2017; Engemann et al., 2022; Banville et al., 2022) 
@@ -18,11 +19,7 @@ Features generated from the timeseries data included:
 - Filterbank-Riemann features  (Engemann et al., 2022)
 - fooof aperiodic components as well as periodic components in 0.5 hz bins from 1-40hz (Donoghue et al., 2020; Langer et al., 2022)
 
-
-![Simple Visual](simpleVisual.png)
-
 **References**
-
 Banville, H., Wood, S. U., Aimone, C., Engemann, D. A., & Gramfort, A. (2022). Robust learning from corrupted EEG with dynamic spatial filtering. *NeuroImage*, 251, 118994.
 
 Donoghue T, Haller M, Peterson EJ, Varma P, Sebastian P, Gao R, Noto T, Lara AH, Wallis JD, Knight RT, Shestyuk A, & Voytek B (2020). Parameterizing neural power spectra into periodic and aperiodic components. *Nature Neuroscience*, 23, 1655-1665.
