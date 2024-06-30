@@ -19,7 +19,7 @@ Features generated from the timeseries data included:
 - Filterbank-Riemann features  (Engemann et al., 2022)
 - fooof aperiodic components as well as periodic components in 0.5 hz bins from 1-40hz (Donoghue et al., 2020; Langer et al., 2022)
 
-**References**
+## References
 
 Banville, H., Wood, S. U., Aimone, C., Engemann, D. A., & Gramfort, A. (2022). Robust learning from corrupted EEG with dynamic spatial filtering. *NeuroImage*, 251, 118994.
 
