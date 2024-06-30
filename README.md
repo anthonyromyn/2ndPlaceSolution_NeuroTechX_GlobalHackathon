@@ -20,6 +20,7 @@ Features generated from the timeseries data included:
 - fooof aperiodic components as well as periodic components in 0.5 hz bins from 1-40hz (Donoghue et al., 2020; Langer et al., 2022)
 
 **References**
+
 Banville, H., Wood, S. U., Aimone, C., Engemann, D. A., & Gramfort, A. (2022). Robust learning from corrupted EEG with dynamic spatial filtering. *NeuroImage*, 251, 118994.
 
 Donoghue T, Haller M, Peterson EJ, Varma P, Sebastian P, Gao R, Noto T, Lara AH, Wallis JD, Knight RT, Shestyuk A, & Voytek B (2020). Parameterizing neural power spectra into periodic and aperiodic components. *Nature Neuroscience*, 23, 1655-1665.
