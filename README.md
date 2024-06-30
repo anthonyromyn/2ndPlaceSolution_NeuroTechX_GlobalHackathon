@@ -1,5 +1,5 @@
 # BrainAge
-Approach used by our team at State++ to come in 2nd place in NeuroTechX's 2022 Hackathaon Brain Age Prediction Challenge: https://codalab.lisn.upsaclay.fr/competitions/8336
+Approach used by our team at State++ to come in 2nd place in NeuroTechX's 2022 Global Hackathaon Brain Age Prediction Competition: https://codalab.lisn.upsaclay.fr/competitions/8336
 
 ## Overview
 We successfully predicted age from brain biomedical timeseries data (EEG brain activity recordings) to a mean absolute error (MAE) of 1.60 years on the competition held-out test set.
