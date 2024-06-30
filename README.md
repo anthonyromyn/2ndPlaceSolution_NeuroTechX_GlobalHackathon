@@ -2,15 +2,22 @@
 Approach used by our team at State++ to come in 2nd place in NeuroTechX's 2022 Hackathaon Brain Age Prediction Challenge: https://codalab.lisn.upsaclay.fr/competitions/8336
 
 ## Overview
-**The approach consisted of feature generation + auto-pytorch model building.**
+We successfully predicted age from brain biomedical timeseries data (EEG brain activity recordings) to a mean absolute error (MAE) of 1.60 years on the competition held-out test set.
 
-Features used included:
+Our approach consisted of three main components:
+1) feeding the timeseries data through a 1-dimensional convolutional neural net
+2) constructing a number of tabular feature sets from the timeseries data and feeding some of these sets through a moderately regulaized ridge regression
+3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to an autoML software for final prediction generation.
 
+
+## Background
+Our 1-dimensional conv net was based on the Deep4Net architecture (Schirrmeister et al., 2017; Engemann et al., 2022; Banville et al., 2022) 
+
+Features generated from the timeseries data included:
 - Handcrafted features  (Engemann et al., 2022)
 - Filterbank-Riemann features  (Engemann et al., 2022)
-- age predictions from Filterbank-Riemann-based ridge regression (Engemann et al., 2022)
-- age predictions from Deep4Net (Schirrmeister et al., 2017; Engemann et al., 2022; Banville et al., 2022) 
 - fooof aperiodic components as well as periodic components in 0.5 hz bins from 1-40hz (Donoghue et al., 2020; Langer et al., 2022)
+
 
 ![Simple Visual](simpleVisual.png)
 
