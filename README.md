@@ -9,7 +9,7 @@ Our approach consisted of three main components:
 2) constructing a number of tabular feature sets from the timeseries data and feeding some of these sets through a moderately regulaized ridge regression.
 3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to Auto-PyTorch for final prediction generation.
 
-![Simple Visual](simpleVisual.png)
+![Simple Visual](pipeline_visual.png)
 
 ## Background
 Our 1-dimensional conv net was based on the Deep4Net architecture (Schirrmeister et al., 2017; Engemann et al., 2022; Banville et al., 2022) 
