@@ -1,4 +1,4 @@
-# BrainAge
+# Brain Age Prediction Competition
 Approach used by our team at State++ to come in 2nd place in NeuroTechX's 2022 Global Hackathaon Brain Age Prediction Competition: https://codalab.lisn.upsaclay.fr/competitions/8336
 
 ## Overview
