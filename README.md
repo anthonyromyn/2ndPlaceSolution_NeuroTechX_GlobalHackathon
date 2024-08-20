@@ -5,7 +5,7 @@ Approach used by our team at State++ to come in 2nd place in NeuroTechX's 2022 G
 We successfully predicted age from brain biomedical timeseries data (EEG brain activity recordings) to a mean absolute error (MAE) of 1.60 years on the competition held-out test set.
 
 Our approach consisted of three main components:
-1) feeding the timeseries data through a 1-dimensional convolutional neural net (Deep4Net from Schirrmeister et al., 2017)
+1) feeding the timeseries data through a 1-dimensional convolutional neural net
 2) constructing a number of tabular feature sets from the timeseries data and feeding some of these sets through a moderately regulaized ridge regression
 3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to AutoPyTorch for final prediction generation.
 
