@@ -7,7 +7,7 @@ We successfully predicted age from brain biomedical timeseries data (EEG brain a
 Our approach consisted of three main components:
 1) feeding the timeseries data through a 1-dimensional convolutional neural net.
 2) constructing a number of tabular feature sets from the timeseries data and feeding some of these sets through a moderately regulaized ridge regression.
-3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to AutoPyTorch for final prediction generation.
+3) concatenating the predictions from our conv net and ridge regression models together with all generated tabular features as inputs to Auto-PyTorch for final prediction generation.
 
 ![Simple Visual](simpleVisual.png)
 
